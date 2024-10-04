@@ -1,0 +1,5 @@
+from PIL import Image, ImageChops
+img_1=Image.open("C:\\Users\HP\Pictures\Camera Roll\\img1.jpg")
+img_2=Image.open("C:\\Users\HP\Pictures\Camera Roll\\img2.jpg")
+difference=ImageChops.difference(img_1,img_2)
+difference.show()
